@@ -1,0 +1,14 @@
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\bin\Debug\Asistente_Shutdown.exe.config
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\bin\Debug\Asistente_Shutdown.exe
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\bin\Debug\Asistente_Shutdown.pdb
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.csprojAssemblyReference.cache
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.Properties.Resources.resources
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.VentanaMain.resources
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.csproj.GenerateResource.cache
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.csproj.CoreCompileInputs.cache
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.exe
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.pdb
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\bin\Debug\Asistente_Shutdown.exe.manifest
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\bin\Debug\Asistente_Shutdown.application
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.exe.manifest
+E:\Programacion\Visual Studio\Asistente_Shutdown\Asistente_Shutdown\obj\Debug\Asistente_Shutdown.application

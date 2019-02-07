@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Asistente_Shutdown.exe" version="1.0.0.2" publicKeyToken="a01d783c0737d964" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="luna_ico.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Asistente_Shutdown" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Asistente_Shutdown.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opciones del manifiesto de UAC
+          Si desea cambiar el nivel de Control de cuentas de usuario de Windows, reemplace el 
+          nodo requestedExecutionLevel por uno de los siguientes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Si desea usar Virtualización de archivos y Registro para compatibilidad con 
+         versiones anteriores, elimine el nodo requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Asistente_Shutdown.exe" size="108512">
+      <assemblyIdentity name="Asistente_Shutdown" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7gXi9ijpyxiZEIziDqjyqpke2ib9/jVlyLtuVulfb5I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Asistente_Shutdown.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="assets\luna.png" size="93593">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>dW0ZdGZNRfZrUvLNCdsV+iF+V2Knxazf/d0xFneZivE=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="assets\luna_ico.ico" size="39573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aR6HqdUlQ/FUvZgr5GnSzMohhfjFK5bh/4ltz0pIZFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="assets\sky.jpg" size="16362">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>IEWejvhQIkk/zwwJHjkEMEokT66oUxxjysr7zGnsl4I=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="luna_ico.ico" size="39573">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aR6HqdUlQ/FUvZgr5GnSzMohhfjFK5bh/4ltz0pIZFU=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TRH81D5\Soulu" issuerKeyHash="3728c88381c35cc7d754e779ac3f8997b771fa4a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>r11UFiYULrgjPZUZYZ0d90BjASd3nGgDump98bOmHDg=</DigestValue></Reference></SignedInfo><SignatureValue>opKKZb0w0DbMGaY5OXodX9bH696CRupy7th6R+jgnPALKhwjdD3WQfLxzEQzPQm1PVvsSJB70x8/eMsVsDCx6137iDShZVElEhkJjVVMaDAetYpDTBk04qEKY+i9qNzqr08l5lDF12W2fi5lKNuz4AuUakhX9y1pO91UuQPAODc=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>rZUbDTq4n9CpEyd4T7cFuhAeXW9WJ8xnUjlbzrQHchhOZQnkyNo0aoPmelLVUeQwsAKFw5HSs/qCxABsyUaj5MeY8blDAvh6QPqqpoUHG6wRHJU1JUAI4Sg3VS/VFPSPv9O+WeWy4omcmDiGFSXwDxs0SCHmUrp3fAHLQpksCjE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="381ca6b3f17d6aba03689c7727016340f71d9d6119953d23b82e142616545daf" Description="" Url=""><as:assemblyIdentity name="Asistente_Shutdown.exe" version="1.0.0.2" publicKeyToken="a01d783c0737d964" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TRH81D5\Soulu</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>zg+eHJGbVk/uidYtjL30n0Xye/Cn10eCjIl9I3nV3U8=</DigestValue></Reference></SignedInfo><SignatureValue>KA1TZxNW9LD0qbfPqOOA5H/8EWe+w8QXKD/1rJDU+KdZM5WMvBsIFom8V07+2nDtuuzU5TDh1HMpzrV0dkQajbNP3g2UzZ95+Q0xs9sb66wGjEYrHtZX0gi0j02Cpmpt2Mpi6BkRNaZKYmKoBgCBX9knoPYRhiBwbYFKB/WomFE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>rZUbDTq4n9CpEyd4T7cFuhAeXW9WJ8xnUjlbzrQHchhOZQnkyNo0aoPmelLVUeQwsAKFw5HSs/qCxABsyUaj5MeY8blDAvh6QPqqpoUHG6wRHJU1JUAI4Sg3VS/VFPSPv9O+WeWy4omcmDiGFSXwDxs0SCHmUrp3fAHLQpksCjE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQF6uv4CjLbZJC3D6gS+wB5jANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAUgBIADgAMQBEADUAXABTAG8AdQBsAHUwHhcNMTkwMjA3MDIzMzI5WhcNMjAwMjA3MDgzMzI5WjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFQAUgBIADgAMQBEADUAXABTAG8AdQBsAHUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAK2VGw06uJ/QqRMneE+3BboQHl1vVifMZ1I5W860B3IYTmUJ5MjaNGqD5npS1VHkMLAChcOR0rP6gsQAbMlGo+THmPG5QwL4ekD6qqaFBxusERyVNSVACOEoN1Uv1RT0j7/TvlnlsuKJnJg4hhUl8A8bNEgh5lK6d3wBy0KZLAoxAgMBAAEwDQYJKoZIhvcNAQELBQADgYEABhuJ88xH7PdHxf4KTRqsghatRTE5/r09qetmFnF9Vs45YswVLbNreyNndgFKceQ9J7FApTyfdFRj3ttGG0yyBs1+TehIf7iWnM60H0PQBND80ZUWydse3/kzyfyczxGeEQuVjQhcFrl8f/ZRczHlo6/K0VUBzROj0Y3nV+xtAbs=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
